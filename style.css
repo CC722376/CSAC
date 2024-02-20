@@ -41,7 +41,7 @@
 #nav #logo img{
     padding:0;
     margin:0;
-    max-height:70px;
+    max-height:90px;
 }
 
 #nav-menu-container{
@@ -199,14 +199,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header
 {
     position: relative;
-    padding:90px 0;
-    margin-top: 90px;
+    padding:9px 0;
+    margin-top: 120px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-color:#f7f7f7;
 }
+
+#header .bg-image{
+    background-image: url("bgs.png");
+}
+
 #header .header-content{
     width:100%;
     text-align:center;
@@ -216,25 +221,28 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight:700;
     color:#73c8e4;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 
-#header .header-content h4{
+#header .header-content h3{
     font-size:25px;
     font-weight:700;
     color:#666666;
     margin-bottom: 20px;
-    text-align: right;
+    text-align: center;
 }
-#header .header-content h4 span{
+#header .header-content h3 span{
     color:#73c8e4;
 }
 #header .header-content ul{
     margin-left: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 #header .header-content ul li{
-    font-size: 22px;   
+    font-size: 22px; 
+    text-align: left; 
+    letter-spacing: 2px; 
 }
 #header .header-content ul li i{
     color:#73c8e4;
@@ -248,8 +256,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin:30px;
     padding:7px 20px;
     font-size:22px;
-    color: #73c8e4;
+    color: #fff;
     border:2px solid #73c8e4;
+    background:#73c8e4;
 }
 #header .header-content .btn:hover{
     background:#73c8e4;
@@ -407,10 +416,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     position:relative;
     padding:90px 0;
 }
+
 #products .product-single{
     position:relative;
     width:100%;
-    padding:30px;
+    padding:10px;
     text-align:center;
     background: #f7f7f7;
     border-radius: 5px;
@@ -418,8 +428,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #products .product-single .product-img{
     position: relative;
     width:100%;
-    margin-bottom:30px;
+    margin-bottom:0px;
     overflow:hidden;
+    
 }
 #products .product-img img{
     max-width:100%;
@@ -435,12 +446,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #products .product-content h3{
     color: #73c8e4;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 #products .product-content .btn{
     color: #73c8e4;
-    font-size: 18px;
+    font-size: 15px;
     border:2px solid #73c8e4;
 }
 #products .product-content .btn:hover{
@@ -574,7 +585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #222222;
 }
 #footer .col-md-6:first-child p{
-    text-align: left;
+    text-align: center;
 }
 #footer .col-md-6:last-child p{
     text-align: right;
